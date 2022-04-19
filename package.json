@@ -4,7 +4,7 @@
   "description": "Dynamic qr codes for Kuroda Ecommerce",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "author": "Jesús Alfredo Morales Damken",
   "license": "ISC",
@@ -15,5 +15,9 @@
     "express-validator": "^6.14.0",
     "mongodb": "^4.5.0",
     "mongoose": "^6.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jesus-morales12/dynamic-qr-codes"
   }
 }

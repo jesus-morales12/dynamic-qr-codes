@@ -8,9 +8,9 @@ const getCode = async (req = request, res = response) => {
   const data = await QrCode.findOne({ url });
 
   if (!data) {
-    return res.json({ redirect: "kuroda.com" });
+    return res.redirect("https://kuroda.com");
   } else {
-    return res.json({redirect: data.redirect});
+    return res.redirect(data.redirect);
   }
 
 }
